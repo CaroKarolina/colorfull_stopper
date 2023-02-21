@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Colorfull Stopper</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <p class="info"><i class="fas fa-question"></i></p>
+      <h1>stopper</h1>
+      <p class="stopwatch">00:00</p>
+      <!-- czas naliczany od momentu naciśnięcia START-->
+      <p class="time">00:00</p>
+      <!-- czas zatrzymany i wyświetlony po naciśnięciu przycisku STOP -->
+
+      <div class="buttons">
+        <button class="start"><i class="fas fa-play"></i></button>
+        <button class="pause"><i class="fas fa-pause"></i></button>
+        <button class="stop"><i class="fas fa-stop"></i></button>
+        <button class="reset"><i class="fas fa-times"></i></button>
+        <button class="history">archiwum</button>
+      </div>
+
+      <ul class="time-list">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+      </ul>
+    </div>
+    <div class="modal-shadow">
+      <div class="modal">
+        <h3>Instrukcja</h3>
+        <p class="start"><i class="fas fa-play"></i> - start</p>
+        <p class="pause"><i class="fas fa-pause"></i> - pauza</p>
+        <p class="stop"><i class="fas fa-stop"></i>- stop</p>
+        <p class="reset">
+          <i class="fas fa-times"></i> - skasuj wszystko (łącznie z archiwalnymi
+          zapisami)
+        </p>
+        <p class="archiwum">
+          <span>archiwum</span> - zobacz wcześniejsze pomiary
+        </p>
+        <button class="close"><i class="fas fa-power-off"></i></button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/24d87cd13b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
