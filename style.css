@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 :root {
-  --first-color: #fa1406;
-  --second-color: #d2c7be;
+  --first-color: rgb(250, 20, 6);
+  --second-color: rgb(210, 199, 190);
 }
 
 body {
@@ -62,7 +62,7 @@ h1 {
 }
 
 .time {
-  /* visibility: hidden; */
+  visibility: hidden;
   color: var(--second-color);
   font-size: 22px;
 }
